@@ -37,6 +37,7 @@
                 <a href="" class="navbar-brand"> 
                  <b>TIKETING PESAWAT</b>
                 </a>
+                 <button class="bnt btn-default pull-right" id="login"><i class="fa fa-user"></i> Login</button>
             </div>
           </div>
         </nav>
@@ -138,6 +139,9 @@
     <!-- custom -->
      <script src="<?= base_url(); ?>assets/js/main.js"></script>
      <script type="text/javascript">
+      $('#login').click(function () {
+        window.location.href = '<?= base_url()?>sign_in/p/view'
+      })
        $(document).ready(function() {
          $('#datatables-example').DataTable();
        });

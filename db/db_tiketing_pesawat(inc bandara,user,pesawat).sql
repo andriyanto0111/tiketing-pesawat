@@ -1,12 +1,9 @@
--- Adminer 4.6.2 MySQL dump
+-- Adminer 4.7.0 MySQL dump
 
 SET NAMES utf8;
 SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
-
-CREATE DATABASE `db_tiketing_pesawat` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `db_tiketing_pesawat`;
 
 DROP TABLE IF EXISTS `tb_bandara`;
 CREATE TABLE `tb_bandara` (
@@ -129,4 +126,4 @@ INSERT INTO `tb_user` (`id_user`, `username`, `password`, `level`) VALUES
 (3,	'petugas',	'afb91ef692fd08c445e8cb1bab2ccf9c',	'petugas'),
 (4,	'su',	'0b180078d994cb2b5ed89d7ce8e7eea2',	'superuser');
 
--- 2018-03-01 15:23:46
+-- 2018-11-30 03:33:38

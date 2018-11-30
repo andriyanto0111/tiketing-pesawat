@@ -1,5 +1,5 @@
 <?php 
-	class SignIn extends CI_Controller
+	class Sign_in extends CI_Controller
 	{
 		
 		function __construct()
@@ -39,7 +39,7 @@
 			$a = ['id_user','user','level'];
 			$this->session->unset_userdata($a);
 			$this->session->set_flashdata('success','Sampai Jumpa');
-			redirect(site_url('signin/p/view'));
+			redirect(site_url('sign_in/p/view'));
 		}
 	}
  ?>

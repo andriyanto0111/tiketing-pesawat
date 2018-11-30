@@ -1,6 +1,6 @@
 <?php
     if ($this->session->userdata['level'] == "") {
-       redirect(site_url('signin/p/view'));
+       redirect(site_url('sign_in/p/view'));
     }else{
 
     }
@@ -65,7 +65,7 @@
                      <li role="separator" class="divider"></li>
                      <li class="more">
                       <ul>
-                        <li><a href="<?= site_url() ?>signin/signout"><span class="fa fa-power-off "></span> Sign Out</a></li>
+                        <li><a href="<?= site_url() ?>sign_in/signout"><span class="fa fa-power-off "></span> Sign Out</a></li>
                       </ul>
                     </li>
                   </ul>

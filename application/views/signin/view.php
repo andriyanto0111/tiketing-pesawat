@@ -44,7 +44,7 @@
 
       <div class="container">
 
-        <form class="form-signin" method="post" action="<?= site_url() ?>signin/proses">
+        <form class="form-signin" method="post" action="<?= site_url() ?>sign_in/proses">
           <div class="panel periodic-login">
               <div class="panel-body text-center">
                   <h1 class="judul">SignIn</h1>
